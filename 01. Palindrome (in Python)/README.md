@@ -22,11 +22,9 @@ You need any working version of Python 3 installed on your system
 
 A step-by-step guide on how to install Python 3 on Windows is shown in this link
 The same process goes using a mac.
-```
 
-http://techadmin.net/install-python-3-windows
+https://tecadmin.net/install-python-3-windows/
 
-```
 
 
 ## Procedure to run the program
@@ -51,7 +49,7 @@ Only with this format can the program work correctly
 
 ## Built With
 
-* Python 3
+* Python 3 (https://www.python.org/)
 
 ##Resources
 * Wikipedia - (https://en.wikipedia.org/wiki/Palindrome) for definition of Palindrome
