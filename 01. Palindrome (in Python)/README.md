@@ -1,6 +1,13 @@
-# MorseTextConverter in Python
+# Palindrome in Python
 
-This program can covert plain english text to morse code and vice versa
+This program has a method returns the longest palindrome that can be gotten from the string passed as its argument
+
+## Quick Notes
+	A palindrome is a word, phrase, number, or other sequence of characters which reads the same backward as forward, such as madam or racecar. 
+	Sentence-length palindromes may be written when allowances are made for adjustments to capital letters, punctuation, and word dividers, such as "A man, a plan, a canal, Panama!", "Was it a car or a cat I saw?" or "No 'x' in Nixon".
+```
+	This program deals with stings without SPACES only... 
+```
 
 ## Getting Started
 
@@ -16,37 +23,30 @@ You need any working version of Python 3 installed on your system
 A step-by-step guide on how to install Python 3 on Windows is shown in this link
 The same process goes using a mac.
 ```
-https://techadmin.net/install-python-3-windows/
+
+http://techadmin.net/install-python-3-windows
+
 ```
 
 
 ## Procedure to run the program
 
-*Open MorseTextConverter.py in IDLE by right clicking on it an selecting "Edit with IDLE"
-*Run it either by pressing F5 key or by clicking >Run >Run Module on the menu tabs
+* Open Palindrome.py in IDLE by right clicking on it an selecting "Edit with IDLE"
+* Run it either by pressing F5 key or by clicking >Run >Run Module on the menu tabs
 
 ```
-When you want to *decode* to plain text from a morse code, 
-enter the morse code of each letter seperated by a pipe character "|"
-Seperate each word with a space
+When the program runs, it asks for a string... Enter a string without SPACES in between the letters
 ```
-Example: --.|---|-..| |-...|.-..|.|...|...| |...|--|.-|-|-|
+Example: madameabracadabrapadap
 ```
-Only with this format can the program decrypt your morse code
+Only with this format can the program work correctly
 ```
 ### How it works
-*In the program,
-*The class MorseTextConverter is created and 
-*The plain text morse codes are stored as key-value pairs in a dictionary type
-*Another reverse dictionary is created by reversing the key-value pair on the first dictionary file
-*Two methods - @returns morseToText(@params) and @returns textToMorse(@params) are defined in the class
-*The methods take a string parameter and also return a string
-*In the morseToText() method, the sting value is converted to an array, stripping all the non_morse code parts (line71-73)
-*Each item in the array is then mapped with the dictionary containing the key-value pairs of the codes
-*Finally, the array is converted to a string
-*In the textToMorse() method, 
-*each character in the string passed as a parameter is compared with the dictionary file
-*The resulting encoded string is returned
+* The program has two functions (besides the main() method)
+* The first function checks if a passed string is a palindrome
+* The second function  this function checks the passed string for the possible palindromes
+* When the program runs, the user is made to enter the string
+* The program then displays the possible palindromes in the string and then highlights the longest 
 
 
 ## Built With
@@ -54,16 +54,15 @@ Only with this format can the program decrypt your morse code
 * Python 3
 
 ##Resources
-*Wikipedia - (http://wikipedia.org) for the morce codes
+* Wikipedia - (https://en.wikipedia.org/wiki/Palindrome) for definition of Palindrome
 
 ## Authors
 
-* **Paul A.** - *Cyberman*(https://github.com/cyberman09)
+* **Paul A.** - *Cyberman*(https://github.com/KryptKode)
 
 
 ## Acknowledgments
 
-* Thanks to Prodsters team..
+* Thanks to Prodsters team...
 * Thanks to Mr. Smatt for inititing the challenge
 * Thanks to God for life
-
