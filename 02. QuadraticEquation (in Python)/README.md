@@ -1,6 +1,18 @@
-# MorseTextConverter in Python
+# Quadratic Eqaution solver in Python
 
-This program can covert plain english text to morse code and vice versa
+This program illustrates object-oriented programmin concept by solving a quadratic equation
+
+## Quick Notes
+In algebra, a quadratic equation (from the Latin quadratus for "square") is any equation having the form
+	```
+		ax^2+bx+c=0
+	```
+where x represents an unknown, and a, b, and c represent known numbers such that a is not equal to 0. 
+If a = 0, then the equation is linear, not quadratic. 
+The numbers a, b, and c are the coefficients of the equation, and may be distinguished by calling them, respectively, the quadratic coefficient, the linear coefficient and the constant or free term.
+```
+	This program gives results for quadratic equations with real roots only... 
+```
 
 ## Getting Started
 
@@ -15,55 +27,56 @@ You need any working version of Python 3 installed on your system
 
 A step-by-step guide on how to install Python 3 on Windows is shown in this link
 The same process goes using a mac.
-```
-https://techadmin.net/install-python-3-windows/
-```
+
+
+http://tecadmin.net/install-python-3-windows
+
+
 
 
 ## Procedure to run the program
 
-*Open MorseTextConverter.py in IDLE by right clicking on it an selecting "Edit with IDLE"
-*Run it either by pressing F5 key or by clicking >Run >Run Module on the menu tabs
+* Open QuadraticEqaution.py in IDLE by right clicking on it an selecting "Edit with IDLE"
+* Run it either by pressing F5 key or by clicking >Run >Run Module on the menu tabs
 
 ```
-When you want to *decode* to plain text from a morse code, 
-enter the morse code of each letter seperated by a pipe character "|"
-Seperate each word with a space
+When the program runs, it asks for the values of a, b, c. Enter the values seperated by SPACES
 ```
-Example: --.|---|-..| |-...|.-..|.|...|...| |...|--|.-|-|-|
+Example: 1 5 6
 ```
-Only with this format can the program decrypt your morse code
+Output:
+Enter a, b, c (separated by SPACEs)
+-->1 5 6
+You entered
+-->a = 1.0
+-->b = 5.0
+-->c = 6.0
+The roots are -2.0 and -3.0
 ```
 ### How it works
-*In the program,
-*The class MorseTextConverter is created and 
-*The plain text morse codes are stored as key-value pairs in a dictionary type
-*Another reverse dictionary is created by reversing the key-value pair on the first dictionary file
-*Two methods - @returns morseToText(@params) and @returns textToMorse(@params) are defined in the class
-*The methods take a string parameter and also return a string
-*In the morseToText() method, the sting value is converted to an array, stripping all the non_morse code parts (line71-73)
-*Each item in the array is then mapped with the dictionary containing the key-value pairs of the codes
-*Finally, the array is converted to a string
-*In the textToMorse() method, 
-*each character in the string passed as a parameter is compared with the dictionary file
-*The resulting encoded string is returned
+* The class QuadraticEquation is defined
+* The constructor initializes the variables (a, b, c)
+* Getter methods for each of the variables are defined
+* The method to calculate the discriminant, D is defined D = (b^2 - 4ac)
+* The methods to get the roots of the equation are defined
+* In main function, the user is asked to enter values for a, b, c and the roots are evaluated
+** For more detailed explanation, refer to the comments in the source code
 
 
 ## Built With
 
-* Python 3
+* Python 3 (http://www.python.org)
 
 ##Resources
-*Wikipedia - (http://wikipedia.org) for the morce codes
+* Wikipedia - (https://en.wikipedia.org/wiki/Quadratic_equation) for definition of Quadratic Equation
 
 ## Authors
 
-* **Paul A.** - *Cyberman*(https://github.com/cyberman09)
+* **Paul A.** - *Cyberman*(https://github.com/KryptKode)
 
 
 ## Acknowledgments
 
-* Thanks to Prodsters team..
+* Thanks to Prodsters team...
 * Thanks to Mr. Smatt for inititing the challenge
 * Thanks to God for life
-
