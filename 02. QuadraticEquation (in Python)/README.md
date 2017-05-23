@@ -60,7 +60,7 @@ The roots are -2.0 and -3.0
 * The method to calculate the discriminant, D is defined D = (b^2 - 4ac)
 * The methods to get the roots of the equation are defined
 * In main function, the user is asked to enter values for a, b, c and the roots are evaluated
-**For more detailed explanation, refer to the comments in the source code**
+* **For more detailed explanation, refer to the comments in the source code**
 
 
 ## Built With
