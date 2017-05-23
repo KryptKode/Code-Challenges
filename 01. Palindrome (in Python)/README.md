@@ -54,13 +54,13 @@ The longest palindrome is
 * The second function  this function checks the passed string for the possible palindromes
 * When the program runs, the user is made to enter the string
 * The program then displays the possible palindromes in the string and then highlights the longest 
-
+* **For a more detailed explanation, refer to the comments in the source code**
 
 ## Built With
 
 * Python 3 (http://www.python.org)
 
-##Resources
+## Resources
 * Wikipedia - (https://en.wikipedia.org/wiki/Palindrome) for definition of Palindrome
 
 ## Authors
