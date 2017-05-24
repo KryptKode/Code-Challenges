@@ -68,8 +68,3 @@ The longest palindrome is
 * **Paul A.** - *Cyberman*(https://github.com/KryptKode)
 
 
-## Acknowledgments
-
-* Thanks to Prodsters team...
-* Thanks to Mr. Smatt for inititing the challenge
-* Thanks to God for life
