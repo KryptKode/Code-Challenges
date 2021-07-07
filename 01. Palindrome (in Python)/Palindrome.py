@@ -48,6 +48,7 @@ def main():
     print("The possible palindrome(s) in \n" + "*** " + user_input + " ***" )
     print("Are: " + "-->" + ", ".join(array_of_palindromes) + "<--")
     print("The longest palindrome is \n" + "*** " + longest_palindrome + " ***")
-
+# end of main()
+    
 if __name__ == '__main__':
     main()
